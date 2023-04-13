@@ -2,7 +2,7 @@
     <div class="container">
       <h1 class="title">Add a new tree to track</h1>
       <div class="create-tree">
-        <form class="form-tree" v-on:submit.prevent="addTree">
+        <form class="form-tree" v-on:submit="addTree">
           <fieldset>
             <div class="form-group">
               <label class="form-label" for="treeTag">Tag Number:</label>
